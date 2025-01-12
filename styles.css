@@ -1,0 +1,94 @@
+* {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+  }
+  
+  /* * => Tudo */
+  
+  h1 {
+    text-decoration: underline;
+  }
+  
+  button {
+    background-color: #017143;
+    color: white;
+    padding: 10px; /*espaçamento do lado de dentro*/
+    border: none;
+    margin-top: 60px;
+    border-radius: 60px;
+    text-align: right;
+    font-weight: 100px;
+    cursor: pointer;
+  }
+  
+  body {
+    padding-top: 20px;
+    padding-right: 100px;
+    padding-left: 100px;
+  }
+  
+  .conteudo {
+    width: 100%; /*largura*/
+    display: flex; /*display:exibir, organizar os itens e o flex: flexibilizar*/
+    justify-content: space-between; /*só pode utilizar essa tag se o display for FLEX* o justify content: alinhar o texto* // espace-between -> espaço entre*/
+    align-items: center;
+  }
+  
+  .textos {
+    width: 600px;
+  }
+  
+  h2 {
+    color: #333;
+    font-size: 60px; /*Tamanho do textp*/
+    font-weight: bold; /*Grossura do Texto*/
+  }
+  
+  span {
+    color: #017143;
+    font-size: 70px;
+    font-weight: 900px;
+  }
+  
+  p {
+    font-size: 16px;
+  }
+  
+  .imagem {
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 250px;
+  }
+  
+  .menu {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .circulo {
+    background: #017143;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    clip-path: circle(600px at right 800px);
+  }
+  
+  .botao-menu {
+    width: 60px;
+    cursor: pointer;
+  }
+  
+  .logo {
+    width: 80px;
+  }
+  
+  .imagem-copo {
+    width: 240px;
+    z-index: 1;
+  }
